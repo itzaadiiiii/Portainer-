@@ -68,9 +68,6 @@ az aks create `
     --name $CLUSTER_NAME `
     --node-count 1 `
     --enable-addons monitoring `
-    # --enable-cluster-autoscaler `
-    # --min-count 1 `
-    # --max-count 10 `
     --node-vm-size Standard_D2as_v7 `
     --generate-ssh-keys
 # ============================================================
