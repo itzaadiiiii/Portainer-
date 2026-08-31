@@ -60,7 +60,7 @@ az group create `
 # - Cluster Autoscaler enabled
 # - Minimum 1 node
 # - Maximum 10 nodes
-# - Standard_B2s VM size
+# - S "Standard_B2s" VM size if not use "Standard_D2as_v7" as B2s and A series is not supported now 
 # - SSH keys generated automatically
 
 az aks create `
