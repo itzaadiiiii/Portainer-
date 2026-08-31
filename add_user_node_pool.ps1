@@ -1,4 +1,5 @@
 
+# Add a user node pool to an existing AKS cluster run it after aks_cli_powershell.ps1 script to create user nodes.
 az aks nodepool add `
     --resource-group $RESOURCE_GROUP `
     --cluster-name $CLUSTER_NAME `
