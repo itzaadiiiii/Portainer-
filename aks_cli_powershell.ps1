@@ -71,7 +71,7 @@ az aks create `
     --enable-cluster-autoscaler `
     --min-count 1 `
     --max-count 10 `
-    --node-vm-size Standard_B2s `
+    --node-vm-size Standard_D2as_v7 `
     --generate-ssh-keys
 
 
