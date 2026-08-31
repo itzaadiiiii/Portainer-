@@ -52,6 +52,14 @@ kubectl create namespace portainer
 
 # Deploy Portainer with LoadBalancer service
 kubectl apply -n portainer -f https://downloads.portainer.io/ee-lts/portainer-lb.yaml
+# This require key. which you can get onto your email when you create 3 Node Free google it and fill the form and Portainer will send you key which you need to enter on the UI when you aceess the portainer.
+
+#OR
+
+#For Portainer Community Edition (CE), use:
+
+kubectl apply -n portainer -f https://downloads.portainer.io/ce-lts/portainer-lb.yaml
+
 
 # Check Portainer deployment
 kubectl get pods -n portainer
