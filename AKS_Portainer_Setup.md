@@ -88,6 +88,21 @@ example key looks like this
 
 ```
 
+# Or
+
+## when you use the portainer Community Edition CE you need a  token which you can get by logging inside the contianer
+
+```
+bash
+# Get Portainer pod name
+kubectl get pods -n portianer
+
+# Check the logs of the Portainer container
+kubectl logs <portainer-pod-name> -n portainer
+
+# Look for a line that contains "Token:" in the logs. Once you get the token you can mention that on the UI. 
+```
+
 Congatulations! You now have Portainer running on AKS.
 
 ## 🚀 **Deployment Instructions**
